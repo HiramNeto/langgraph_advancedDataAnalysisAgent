@@ -1,0 +1,27 @@
+{
+  "name": "aiagent_langchain_mcpserver_pythonruntime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:new": "node dist/index_newmcpserver.js",
+    "cli": "node dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.46",
+    "@langchain/langgraph": "^0.2.65",
+    "@langchain/mcp-adapters": "^0.4.2",
+    "@langchain/openai": "^0.5.6",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
